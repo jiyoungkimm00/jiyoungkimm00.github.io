@@ -2,96 +2,105 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Ji Young Kim
     - name: Languages
-      value: English, German
+      value: Korean (native), English (fluent)
+    - name: Research Focus
+      value: Reasoning-aware AI for automated debugging and program repair
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Computer Science and Engineering
+      institution: Seoul National University, Seoul, South Korea
+      year: 2015 – 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research in machine learning, graph-based modeling, and large-scale data analysis
+        - Published peer-reviewed papers at IMC 2015 and IEEE BigComp 2017
+    - title: B.S. in Computer and Communication Engineering
+      institution: Korea University, Seoul, South Korea
+      year: 2010 – 2014
       description:
-        - Description 1.
-        - Description 2.
+        - Strong foundation in computer systems, networking, and signal processing
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: University of Illinois Urbana–Champaign (UIUC)
+      year: 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Collaborating with Prof. Darko Marinov on large-scale empirical studies of real-world software bugs
+        - Designed pipelines for reproduction testing and automated program repair (APR) evaluation
+        - Analyzed reasoning-related failure modes in LLM-based debugging tools
+    - title: Data Scientist
+      institution: SAP Labs Korea
+      year: 2023 – Present
       description:
-        - Description 1.
-        - Description 2.
+        - Developed LLM-based systems for automated debugging and reasoning extraction
+        - Proposed and implemented structured reasoning paths from historical bug reports
+        - Designed hierarchical retrieval pipelines for bug-report search and summarization
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Industry Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Analytical Reporting Developer
+      institution: SAP Labs Korea
+      year: 2017 – 2023
+      description:
+        - Built enterprise-scale CI/CD monitoring and development-quality analysis systems
+        - Led migration of reporting pipelines from on-premise environments to cloud infrastructure
+    - title: Director / Project Manager
+      institution: PatternTech
+      year: 2020 – Present
+      description:
+        - Led AI projects combining LLMs, vision models, and large-scale data processing
+        - Secured and managed government and industry research funding
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "StreetSense: Effect of Bus Wi-Fi APs on Pedestrian Smartphone"
+      institution: ACM Internet Measurement Conference (IMC)
+      year: 2015
+    - title: "Machine Learning Based Path Management for Mobile Devices over MPTCP"
+      institution: IEEE BigComp
+      year: 2017
+    - title: "Impact of Diverse Document-Evaluation Measure-Based Searching Methods in Big Data Search Accuracy"
+      institution: Journal of KIISE
+      year: 2017
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Ceremonial Speaker, SAP Academy for Engineering Graduation
+    - year: 2019
       items:
-        - Max Planck Medal
+        - SAP Early Talent Award
+    - year: 2016
+      items:
+        - Academic Excellence Scholarship, Seoul National University
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Reasoning in LLMs
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Structured reasoning extraction from natural language artifacts
+        - Stability and consistency of reasoning in debugging workflows
+    - title: Automated Debugging and Program Repair
       items:
-        - Description 1.
-        - Description 2.
+        - Reproduction testing and empirical evaluation
+        - Reasoning-aware fault localization and patch generation
+    - title: Empirical Software Engineering
+      items:
+        - Benchmark construction from real-world bug reports
+        - Rigorous evaluation of debugging and repair systems
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Professional:</u> Research mentoring, interdisciplinary collaboration
+    - <u>Personal:</u> Cooking, travel, and family life
