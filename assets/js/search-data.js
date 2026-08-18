@@ -433,6 +433,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-bugeoisie",
+          title: 'bugeoisie',
+          description: "A first look at bug reports created by researchers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bugeoisie/";
             },},{
         id: 'social-cv',
         title: 'CV',
