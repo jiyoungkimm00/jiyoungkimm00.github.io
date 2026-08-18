@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher | Ph.D. Applicant
+subtitle: First-year Ph.D. Student at UIUC
 
 profile:
   align: right
@@ -27,9 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher focused on **reliable and interpretable AI systems for software engineering**, with an emphasis on **automated debugging and program repair**.
+I am a first-year Ph.D. student at the University of Illinois Urbana-Champaign (UIUC), advised by Prof. Reyhan Jabbarvand.
 
-My work studies how **reasoning in large language models** can be **extracted, structured, and evaluated**, using **real-world bug reports**, **empirical benchmarking**, and **principled software-engineering methodology**.
+My research focuses on **reliable and interpretable AI systems for software engineering**, with an emphasis on **automated debugging and program repair**.
 
-I have worked at the intersection of **industry-scale debugging practice** (SAP Labs Korea) and **academic evaluation of debugging and repair systems** (UIUC with Prof. Darko Marinov), aiming to bridge **practical debugging workflows** with **rigorous reasoning-aware AI research**.
-
+I study how **reasoning in large language models** can be **extracted, structured, and evaluated**, using **real-world bug reports**, **empirical benchmarking**, and **principled software-engineering methodology**. My work bridges **practical debugging workflows** with **rigorous reasoning-aware AI research**.
